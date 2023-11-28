@@ -8,7 +8,7 @@ const fetchUrl = async (url) => {
 
 /* const apodComponent = (astrologyPictureOfTheDay) => {
   //console.log(apod.title)                         //destructuring
-  const ( title, url, date, explanation) = astrologyPictureOfTheDay
+  const { title, url, date, explanation } = astrologyPictureOfTheDay
   console.log(title)
   console.log(url)                A
   console.log(date)               |
